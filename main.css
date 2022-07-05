@@ -1,0 +1,10 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+#canvas{
+    position: relative;
+    background-color: black;
+    cursor:url(too1134.cur) 2 2,default;
+}
