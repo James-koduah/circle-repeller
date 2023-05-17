@@ -22,9 +22,47 @@ function drawBlocks(){
     collision()
 }
 function collision(){
-    if(blockY+blockH>circleY-radius){
-        if(circleX-radius<(blockX+blockW)){
-            alert('gameOver')
+    if (circleY + radius < (blockY + blockH)  && circleY + radius > blockY){
+        if(circleX + radius > (blockX) && circleX + radius < (blockX  + blockW )){
+        console.log('james')
         }
     }
+    if (circleX + radius >= (blockX) && circleX + radius <= ((blockX) + blockW)){
+        if(circleY + radius > blockY && circleY + radius < (blockY + blockH )){
+            console.log('game')
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // if(blockY+blockH>circleY-radius){
+    //     if(blockX+blockW>circleX-radius){
+    //         console.log('james')
+    //     }
+    // }else
+    // if(blockY<circleY+radius){
+    //     if(blockX<circleX+radius){
+    //         console.log('jgame')
+    //     }
+    // }
+    
 }
